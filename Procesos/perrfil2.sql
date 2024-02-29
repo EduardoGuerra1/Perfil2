@@ -146,7 +146,7 @@ BEGIN
     VALUES (UUID(), p_pedido_id, p_producto_id, p_cantidad, p_precio_unitario, p_subtotal);
 END //
 DELIMITER ;
-
+/*
 -- Inserciones en la tabla clientes
 CALL insertar_cliente('Juan', 'Pérez', '1234567890', 'Calle 123');
 CALL insertar_cliente('María', 'Gómez', '0987654321', 'Avenida Principal');
@@ -234,3 +234,4 @@ CALL insertar_detalle_pedido('f8638f64-d65d-11ee-9d3b-a','d7cafd9d-d65d-11ee-9d3
 CALL insertar_detalle_pedido('f8638f64-d65d-11ee-9d3b-a','d7cafd9d-d65d-11ee-9d3b-a',1,5.99,5.99);
 CALL insertar_detalle_pedido('f8638f64-d65d-11ee-9d3b-a','d7cafd9d-d65d-11ee-9d3b-a',1,5.99,5.99);
 CALL insertar_detalle_pedido('f8638f64-d65d-11ee-9d3b-a','d7cafd9d-d65d-11ee-9d3b-a',1,5.99,5.99);
+*/
